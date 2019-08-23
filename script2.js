@@ -63,14 +63,9 @@ button.addEventListener("click", ()=>{
     image.style.display = "inline-block";
     let num = Math.floor(Math.random() * 6); 
     image.src = diceArray[num].link;
-    // player.textContent = parseInt(player.textContent)+parseInt(diceArray[num].value);
     currentScore.textContent = parseInt(currentScore.textContent)+parseInt(diceArray[num].value);
     
     if (diceArray[num].value == 1){
-        // alert("You lose");
-        // score.textContent = 0;
-        // score2.textContent = 0;
-        // image.style.display = "none";
         currentScore.textContent = 0;
         if (player == score){
             player = score2;

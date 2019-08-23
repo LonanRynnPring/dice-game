@@ -42,5 +42,3 @@ button.addEventListener("click", ()=>{
     }
     
 })
-
-// score

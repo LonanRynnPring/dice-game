@@ -1,0 +1,15 @@
+body{
+    text-align:center;
+    height: 100vh;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+
+}
+.box{
+    border-style:solid;
+    padding-left: 5%;
+    padding-right: 5%;
+}

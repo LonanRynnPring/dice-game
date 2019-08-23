@@ -12,6 +12,7 @@ body{
 }
 #image{
     display:none;
+    border-radius: 25%;
 }
 
 .boxa {
@@ -48,3 +49,10 @@ body{
     background-color:rgba(140, 140, 140, 0.459);
     color:black;
 }
+
+#button, #hold{
+    background-color: rgba(140, 140, 140, 0);
+    color: white;
+    border-radius: 25%;
+}
+
